@@ -1,0 +1,28 @@
+{
+	"name": "swordbros/sw-paltoru",
+	"description": "Swordbros sw-paltoru extension for Aimeos",
+	"keywords": ["aimeos", "extension"],
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0",
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": "~7.1",
+		"composer/installers": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+
+		},
+		"classmap": [
+			"client/html/src",
+			"client/jsonapi/src",
+			"admin/jqadm/src",
+			"admin/jsonadm/src",
+			"controller/common/src",
+			"controller/frontend/src",
+			"controller/jobs/src",
+			"lib/custom/src"
+		]
+	}
+}
